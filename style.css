@@ -69,13 +69,19 @@ nav {
 	-o-transition: all 0.4s ease;
 }
 
+
+
 @media screen and (max-width: 1024px){
 	.nav__links {
 		width: 65%;
 	}
 	
+	.wrap{
+		font-size: 20px;
+	}
+
 	.wrap__title {
-	font-size: 32px;
+		font-size: 32px;
 	}
 }
 
@@ -85,20 +91,28 @@ nav {
 		font-size: 30px;
 	}
 
+	.wrap{
+		font-size: 15px;
+	}
+
 	.wrap__title {
-	font-size: 15px;
+		font-size: 20px;
 	}
 
 	.burger {
 		display: block;
 	}
 
+	.nav__links li {
+		margin-right: 20px;
+	}
+
 	.nav__links {
+		display: none;
 		position: absolute;
 		right: 0;
 		height: 93vh;
 		top: 7vh;
-		display: flex;
 		flex-direction: column;
 		align-items: center;
 		width: 50%;
@@ -168,3 +182,6 @@ nav {
 	-o-transform: rotate(45deg) translate(-5px, -6px);	
 }
 
+.toggle .line1 {
+	transform:
+}
